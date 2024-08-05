@@ -4,7 +4,6 @@ import { FaEdit, FaTrash } from "react-icons/fa";
 import { useState } from "react";
 import { nanoid } from "nanoid";
 
-// Container
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -15,7 +14,6 @@ const Container = styled.div`
   min-height: 100vh;
 `;
 
-// InputContainer
 const InputContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -25,7 +23,6 @@ const InputContainer = styled.div`
   max-width: 400px;
 `;
 
-// TextField
 const TextField = styled.input`
   flex: 1;
   width: 100%;
@@ -37,7 +34,6 @@ const TextField = styled.input`
   overflow: hidden;
 `;
 
-// ListContainer
 const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -48,7 +44,6 @@ const ListContainer = styled.div`
   margin-bottom: "12px";
 `;
 
-// List (ul)
 const List = styled.div`
   width: 100%;
   max-width: 600px;
@@ -65,7 +60,6 @@ const List = styled.div`
   align-items: center;
 `;
 
-// ListBox (li)
 const ListBox = styled.div`
   width: %100;
   display: flex;
@@ -79,7 +73,6 @@ const ListBox = styled.div`
   box-sizing: border-box;
 `;
 
-// EditDeleteContainer
 const EditDeleteContainer = styled.div`
   display: flex;
   gap: 10px;
@@ -111,7 +104,6 @@ const EditDeleteContainer = styled.div`
   }
 `;
 
-// Modal
 const Modal = styled.div`
   position: fixed;
   top: 0;
@@ -125,7 +117,6 @@ const Modal = styled.div`
   z-index: 999;
 `;
 
-// ModalContainer
 const ModalContainer = styled.div`
   background-color: white;
   padding: 20px;
@@ -134,7 +125,7 @@ const ModalContainer = styled.div`
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 `;
-// Button
+
 const Button = styled.button`
   padding: 10px 20px;
   margin-top: 20px;
